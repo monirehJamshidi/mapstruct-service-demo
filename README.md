@@ -20,20 +20,20 @@ It also provides a simple **in-memory repository**, **service layer**, **REST AP
 
 ## 📂 Project Structure
 
+```text
 mapstruct-service-demo
 ├── src
-│ ├── main
-│ │ ├── java/com/example/demo
-│ │ │ ├── entity # User entity
-│ │ │ ├── dto # UserDTO
-│ │ │ ├── mapper # UserMapper (MapStruct)
-│ │ │ ├── repository # In-memory UserRepository
-│ │ │ ├── service # UserService
-│ │ │ ├── controller # UserController (REST API)
-│ │ │ └── DemoApplication.java
-│ │ └── resources
-│ │ └── application.properties
-│ └── test/java/com/example/demo
-│ └── UserServiceTest.java
+│   ├── main
+│   │   ├── java/com/example/demo
+│   │   │   ├── entity          # User entity
+│   │   │   ├── dto             # UserDTO
+│   │   │   ├── mapper          # UserMapper (MapStruct)
+│   │   │   ├── repository      # In-memory UserRepository
+│   │   │   ├── service         # UserService
+│   │   │   ├── controller      # UserController (REST API)
+│   │   │   └── DemoApplication.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test/java/com/example/demo
+│       └── UserServiceTest.java
 └── pom.xml
-
